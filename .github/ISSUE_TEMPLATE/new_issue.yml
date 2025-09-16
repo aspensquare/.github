@@ -1,12 +1,12 @@
 name: New Issue
-description: General issue or feature request template.
+description: General issue or feature request template
 title: "[Issue]: "
 labels: []
 body:
   - type: markdown
     attributes:
       value: |
-        Please provide a description of your issue or request.  
+        Please provide a description of your issue or request.
         If applicable, consider selecting one of the specialized templates from the template picker.
 
   - type: textarea
@@ -22,7 +22,7 @@ body:
     id: steps
     attributes:
       label: Steps to Reproduce / Context
-      description: Optional: how to reproduce, screenshots, or context
+      description: "Optional: how to reproduce, screenshots, or context"
       placeholder: Provide steps, screenshots, or any context
     validations:
       required: false
@@ -31,7 +31,7 @@ body:
     id: expected
     attributes:
       label: Expected Behavior / Desired Outcome
-      description: Optional: what you expected to happen
+      description: "Optional: what you expected to happen"
       placeholder: Explain the expected outcome
     validations:
       required: false

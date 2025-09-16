@@ -42,4 +42,3 @@ body:
       label: Checklist
       options:
         - label: I can reproduce this issue consistently
-        - label: I have included relevant details

@@ -59,15 +59,3 @@ body:
       label: Additional Context
       description: Optional - mockups, examples, or any other relevant information
       placeholder: Screenshots, links to similar features, examples, etc.
-
-  - type: checkboxes
-    id: checklist
-    attributes:
-      label: Checklist
-      options:
-        - label: I have searched for existing feature requests
-          required: true
-        - label: I have provided a clear description of the feature
-          required: true
-        - label: I have explained the motivation/use case
-          required: true

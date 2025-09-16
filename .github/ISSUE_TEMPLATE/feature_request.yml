@@ -1,0 +1,73 @@
+name: 🚀 Feature Request
+description: Suggest a new feature or enhancement
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature! Please provide as much detail as possible to help us understand your request.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What feature or enhancement do you want?
+      placeholder: Describe the feature you'd like to see added
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation / Use Case
+      description: Why is this feature needed? What problem does it solve?
+      placeholder: Explain the use case and why this feature would be valuable
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority Level
+      description: How important is this feature to you?
+      options:
+        - Nice to have
+        - Would be helpful
+        - Important for my workflow
+        - Critical/blocking
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Optional - describe how you think this feature should work
+      placeholder: What would the ideal implementation look like?
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Optional - any workarounds or alternative solutions you've considered
+      placeholder: Have you found any workarounds? What other approaches did you consider?
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Optional - mockups, examples, or any other relevant information
+      placeholder: Screenshots, links to similar features, examples, etc.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched for existing feature requests
+          required: true
+        - label: I have provided a clear description of the feature
+          required: true
+        - label: I have explained the motivation/use case
+          required: true

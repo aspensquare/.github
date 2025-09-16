@@ -1,0 +1,80 @@
+name: 🐛 Bug Report
+description: Report a bug in the codebase
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the information below to help us resolve the issue.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the bug clearly. Include expected vs actual behavior.
+      placeholder: What happened? What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps to reproduce the issue
+      placeholder: |
+        1. Go to...
+        2. Click on...
+        3. See error...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should happen instead?
+      placeholder: Describe what you expected to happen
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / Logs
+      description: Optional - add screenshots or logs if relevant
+      placeholder: Paste screenshots or logs here
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating System / Version
+      placeholder: e.g., macOS 14.0, Windows 11, Ubuntu 22.04
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser / Version
+      placeholder: e.g., Chrome 120.0, Safari 17.0, Firefox 121.0
+    validations:
+      required: false
+
+  - type: input
+    id: runtime
+    attributes:
+      label: Runtime Version
+      placeholder: e.g., Node.js 20.0, Python 3.11, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I can reproduce this issue consistently
+          required: true
+        - label: I have reproduced the issue locally
+          required: false

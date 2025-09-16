@@ -1,0 +1,52 @@
+name: 🧹 Chore
+description: General maintenance tasks
+title: "[CHORE] "
+labels: ["maintenance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for general maintenance tasks like dependency updates, code cleanup, documentation improvements, etc.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the task or maintenance work that needs to be done
+      placeholder: What maintenance task needs to be completed?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of Chore
+      description: What kind of maintenance task is this?
+      options:
+        - Dependency update
+        - Code cleanup/refactoring
+        - Documentation update
+        - Configuration change
+        - Build/tooling improvement
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Optional - any additional context or reasoning for this task
+      placeholder: Why is this maintenance needed? Any specific considerations?
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have checked that this task does not introduce regressions
+          required: true
+        - label: I have verified changes locally (if applicable)
+          required: false
+        - label: Documentation has been updated (if needed)
+          required: false

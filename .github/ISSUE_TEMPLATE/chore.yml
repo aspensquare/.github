@@ -1,6 +1,6 @@
 name: 🧹 Chore
 description: General maintenance tasks
-title: "[CHORE] "
+title: "[CHORE]: "
 labels: ["maintenance"]
 body:
   - type: markdown

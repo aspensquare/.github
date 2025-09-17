@@ -51,7 +51,7 @@ body:
       label: Operating System / Version
       placeholder: e.g., macOS 14.0, Windows 11, Ubuntu 22.04
     validations:
-      required: true
+      required: false
 
   - type: input
     id: browser

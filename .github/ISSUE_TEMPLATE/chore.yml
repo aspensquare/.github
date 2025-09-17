@@ -46,7 +46,7 @@ body:
       label: Checklist
       options:
         - label: I have checked that this task does not introduce regressions
-          required: true
+          required: false
         - label: I have verified changes locally (if applicable)
           required: false
         - label: Documentation has been updated (if needed)

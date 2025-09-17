@@ -25,8 +25,9 @@ body:
       options:
         - Dependency update
         - Code cleanup/refactoring
-        - Documentation update
         - Configuration change
+        - UI enhancement
+        - Documentation update
         - Build/tooling improvement
         - Other
     validations:

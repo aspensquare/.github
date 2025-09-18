@@ -1,14 +1,15 @@
 # Pull Request
 
-Please select the appropriate template from the dropdown if applicable.
+## What
+<!-- What this PR does -->
 
-## Description
-<!-- Briefly describe your changes -->
+## Why
+<!-- Why this change is needed -->
 
-## Related Issue
-<!-- Link the issue this PR addresses -->
+## Related
+<!-- Optional: issue number, e.g., #123 -->
 
 ## Checklist
-- [ ] Code builds successfully
-- [ ] Tests added / updated
-- [ ] Documentation updated if needed
+- [ ] Project builds ✅
+- [ ] Tests added/updated ✅
+- [ ] Docs (if applicable) ✅

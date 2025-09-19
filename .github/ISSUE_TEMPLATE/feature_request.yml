@@ -59,3 +59,12 @@ body:
       label: Additional Context
       description: Optional - mockups, examples, or any other relevant information
       placeholder: Screenshots, links to similar features, examples, etc.
+
+  - type: textarea
+    id: task-list
+    attributes:
+      label: Task List
+      description: Optional - inital tasks to get started on this feature
+      placeholder: |
+              -[] Task 1
+              -[] Task 2

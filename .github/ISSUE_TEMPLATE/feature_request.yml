@@ -60,7 +60,7 @@ body:
       description: Optional - mockups, examples, or any other relevant information
       placeholder: Screenshots, links to similar features, examples, etc.
 
-  - type: textarea
+  - type: markdown
     id: task-list
     attributes:
       label: Task List

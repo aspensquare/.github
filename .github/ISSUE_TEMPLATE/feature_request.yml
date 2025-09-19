@@ -65,6 +65,5 @@ body:
     attributes:
       label: Task List
       description: Optional - inital tasks to get started on this feature
-      placeholder: |
-              -[] Task 1
-              -[] Task 2
+      value: |
+        - [ ] Task 1

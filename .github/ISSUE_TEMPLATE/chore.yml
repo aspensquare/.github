@@ -23,12 +23,12 @@ body:
       label: Type of Chore
       description: What kind of maintenance task is this?
       options:
-        - Dependency update
-        - Code cleanup/refactoring
-        - Configuration change
+        - Code change/refactoring
         - UI enhancement
-        - Documentation update
+        - Dependency update
+        - Configuration change
         - Build/tooling improvement
+        - Documentation update
         - Other
     validations:
       required: true

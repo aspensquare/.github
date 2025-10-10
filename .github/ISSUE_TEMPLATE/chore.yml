@@ -13,7 +13,7 @@ body:
     attributes:
       label: Task
       description: What needs to be done? Summarize the work and area it affects.
-      placeholder: "Update Webpack config to speed up builds"
+      placeholder: "Update React to v18, Refactor auth module"
     validations:
       required: true
 
@@ -22,7 +22,7 @@ body:
     attributes:
       label: Why / Impact
       description: Why is this task valuable? What will improve or be fixed?
-      placeholder: "Reduces CI build time by ~30%, affecting all devs"
+      placeholder: "Improve performance, reduce tech debt, enhance security"
     validations:
       required: true
 

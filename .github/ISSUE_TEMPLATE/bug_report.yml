@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report a bug! Please fill out the information below to help us resolve the issue.
+        Please fill out the information below to document the issue.
 
   - type: textarea
     id: description
@@ -44,30 +44,6 @@ body:
       label: Screenshots / Logs
       description: Optional - add screenshots or logs if relevant
       placeholder: Paste screenshots or logs here
-
-  - type: input
-    id: os
-    attributes:
-      label: Operating System / Version
-      placeholder: e.g., macOS 14.0, Windows 11, Ubuntu 22.04
-    validations:
-      required: false
-
-  - type: input
-    id: browser
-    attributes:
-      label: Browser / Version
-      placeholder: e.g., Chrome 120.0, Safari 17.0, Firefox 121.0
-    validations:
-      required: false
-
-  - type: input
-    id: runtime
-    attributes:
-      label: Runtime Version
-      placeholder: e.g., Node.js 20.0, Python 3.11, etc.
-    validations:
-      required: false
 
   - type: checkboxes
     id: checklist

@@ -29,13 +29,13 @@ body:
   - type: dropdown
     id: priority
     attributes:
-      label: Priority Level
-      description: How important is this feature to you?
+      label: Priority
+      description: How urgent or important is this task?
       options:
-        - Nice to have
-        - Would be helpful
-        - Important for my workflow
-        - Critical/blocking
+        - 🔥 High — blocking or urgent
+        - ⚙️ Medium — worthwhile soon
+        - 💤 Low — nice-to-have or backlog
+        - 🧊 Icebox — low priority / future consideration
     validations:
       required: true
 

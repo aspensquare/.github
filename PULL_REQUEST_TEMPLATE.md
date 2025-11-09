@@ -1,5 +1,16 @@
-## Linked Issue
-Closes #ISSUE_NUMBER
+## Linked/Related Issue
+<!-- If applicable, link to related issues -->
+<!-- Closes #ISSUE_NUMBER -->
+<!-- Relates to #ISSUE_NUMBER -->
+
+## Type of Change
+<!-- Check the relevant box(es) -->
+- [ ] Feature
+- [ ] Bug fix
+- [ ] Refactoring
+- [ ] Chore/Maintenance
+- [ ] Documentation
+- [ ] Other: _____
 
 ## Summary of Changes
 Describe how the work was implemented, including any design decisions or tradeoffs that influenced it.

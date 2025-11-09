@@ -1,24 +1,18 @@
-# 🧹 Chore Pull Request
+# Pull Request
 
-## Description
-<!-- What maintenance task or configuration change does this PR perform? -->
+## What
+<!-- What this PR does -->
 
-## Related Issue
-Refs #
+## Why
+<!-- Why this change is needed -->
 
-## Changes Made
-- [ ] Dependency updates
-- [ ] CI/CD / build configuration changes
-- [ ] Linting / formatting fixes
-- [ ] Other non-functional maintenance tasks
+## How
+<!-- Describe how the work was implemented, including any design decisions or tradeoffs that influenced it. -->
 
-## How to Test
-<!-- Optional: steps to verify changes if necessary -->
-1.
-2.
+## Related
+<!-- Optional: issue number, e.g., #123 -->
 
 ## Checklist
-- [ ] Code builds successfully
-- [ ] Tests passing (if applicable)
-- [ ] Documentation updated if needed
-- [ ] No unintended side effects
+- [ ] Project builds ✅
+- [ ] Tests added/updated ✅
+- [ ] Docs (if applicable) ✅

@@ -1,25 +1,13 @@
-# 🚀 Feature Pull Request
+## Linked Issue
+Closes #ISSUE_NUMBER
 
-## Description
-<!-- What feature are you adding? Why is it needed? -->
+## Summary of Changes
+Describe how the work was implemented, including any design decisions or tradeoffs that influenced it.
 
-## Related Issue
-Closes #
+## Testing
+Describe how this was tested. Include manual, unit, integration, screenshots, etc.
 
-## Implementation Details
-- Key changes made
-- New endpoints / APIs (if any)
-- UI changes (if any)
-
-## How to Test
-1.
-2.
-3.
-
-## Screenshots / Demos
-<!-- Add screenshots or GIFs if applicable -->
-
-## Checklist
-- [ ] Code builds successfully
-- [ ] Tests written and passing
-- [ ] Documentation updated
+## Rollout & Monitoring
+- Feature flags?
+- Migration steps?
+- Observability / dashboards?

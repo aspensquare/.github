@@ -16,8 +16,3 @@ Describe how the work was implemented, including any design decisions or tradeof
 
 ## Testing
 Describe how this was tested. Include manual, unit, integration, screenshots, etc.
-
-## Rollout & Monitoring
-- Feature flags?
-- Migration steps?
-- Observability / dashboards?

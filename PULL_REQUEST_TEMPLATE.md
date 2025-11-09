@@ -1,7 +1,6 @@
 ## Linked/Related Issue
 <!-- If applicable, link to related issues -->
 <!-- Closes #ISSUE_NUMBER -->
-<!-- Relates to #ISSUE_NUMBER -->
 
 ## Type of Change
 <!-- Check the relevant box(es) -->

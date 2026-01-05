@@ -51,6 +51,6 @@ body:
       label: Checklist
       options:
         - label: I can reproduce this issue consistently
-          required: true
+          required: false
         - label: I have reproduced the issue locally
           required: false

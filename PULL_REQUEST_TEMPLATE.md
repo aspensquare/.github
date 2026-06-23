@@ -1,11 +1,18 @@
-## Linked/Related Issue
-<!-- If applicable, link to related issues -->
-<!-- Closes #ISSUE_NUMBER -->
+## Type of change
+- [ ] 🐛 Bugfix
+- [ ] ✨ Feature
+- [ ] 🧹 Chore / maintenance
 
-## Type of Change
+## Related issue
+<!-- Closes #123 — delete if there's no issue -->
 
-## Summary of Changes
-Describe how the work was implemented, including any design decisions or tradeoffs that influenced it.
+## Summary
+What this changes and why.
 
 ## Testing
-Describe how this was tested. Include manual, unit, integration, screenshots, etc.
+How you verified it — manual steps, unit/integration tests, screenshots.
+Call out what applies: regression test added, builds cleanly (no new warnings),
+verified in a dev environment, docs updated.
+
+## Rollout / risk
+Deploy-sensitive notes: flags, migrations, monitoring. Delete if N/A.

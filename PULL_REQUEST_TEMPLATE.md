@@ -1,3 +1,5 @@
+<!-- Before opening: if this changed behavior or the public contract, update the docs too (README, CLAUDE.md, docs/). -->
+
 ## Type of change
 - [ ] 🐛 Bugfix
 - [ ] ✨ Feature

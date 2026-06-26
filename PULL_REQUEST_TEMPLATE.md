@@ -1,9 +1,10 @@
 <!-- Before opening: if this changed behavior or the public contract, update the docs too (README, CLAUDE.md, docs/). -->
 
 ## Type of change
-- [ ] 🐛 Bugfix
-- [ ] ✨ Feature
-- [ ] 🧹 Chore / maintenance
+<!-- Keep the one that applies; delete the others. -->
+- 🐛 Bugfix
+- ✨ Feature
+- 🧹 Chore / maintenance
 
 ## Related issue
 <!-- Closes #123 — delete if there's no issue -->

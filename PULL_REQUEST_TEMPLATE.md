@@ -10,7 +10,8 @@
 <!-- Closes #123 — delete if there's no issue -->
 
 ## Summary
-<!-- What this changes and why. If it's a chore, say what kind (migration, refactor, deps, tooling). -->
+<!-- What this changes and why — call out any notable design decisions or tradeoffs.
+     If it's a chore, say what kind (migration, refactor, deps, tooling). -->
 
 ## Testing
 <!-- How you verified it — manual steps, unit/integration tests, screenshots.

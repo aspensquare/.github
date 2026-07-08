@@ -13,6 +13,15 @@ body:
       required: true
 
   - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Who or what is affected, and is it blocking? One line is fine.
+      placeholder: e.g. blocks all publishes to OneSite for one property; workaround exists
+    validations:
+      required: false
+
+  - type: textarea
     id: expected
     attributes:
       label: Expected behavior

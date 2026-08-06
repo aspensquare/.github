@@ -2,6 +2,7 @@ name: 🧹 Chore
 description: Maintenance — dependency bumps, cleanup, docs, internal changes
 title: "[CHORE]: "
 labels: ["maintenance"]
+type: Task
 body:
   - type: textarea
     id: what
@@ -13,22 +14,9 @@ body:
       required: true
 
   - type: dropdown
-    id: priority
+    id: kind
     attributes:
-      label: Priority
-      description: How pressing is this?
-      options:
-        - 🔥 High — blocking or urgent
-        - ⚙️ Medium — worthwhile soon
-        - 💤 Low — nice-to-have or backlog
-        - 🧊 Icebox — future consideration
-    validations:
-      required: true
-
-  - type: dropdown
-    id: type
-    attributes:
-      label: Type
+      label: Kind
       description: Optional — what kind of maintenance.
       options:
         - Dependency update

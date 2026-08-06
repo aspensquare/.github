@@ -2,6 +2,7 @@ name: 🐛 Bug
 description: Something's broken
 title: "[BUG]: "
 labels: ["bug"]
+type: Bug
 body:
   - type: textarea
     id: whats-happening

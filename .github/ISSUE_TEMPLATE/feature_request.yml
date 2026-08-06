@@ -2,6 +2,7 @@ name: ✨ Feature
 description: Something we want built
 title: "[FEATURE]: "
 labels: ["enhancement"]
+type: Feature
 body:
   - type: textarea
     id: what
@@ -9,19 +10,6 @@ body:
       label: What we want
       description: The change or capability.
       placeholder: What should exist that doesn't yet?
-    validations:
-      required: true
-
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Priority
-      description: How pressing is this?
-      options:
-        - 🔥 High — blocking or urgent
-        - ⚙️ Medium — worthwhile soon
-        - 💤 Low — nice-to-have or backlog
-        - 🧊 Icebox — future consideration
     validations:
       required: true
 

@@ -1,11 +1,22 @@
-## Linked/Related Issue
-<!-- If applicable, link to related issues -->
-<!-- Closes #ISSUE_NUMBER -->
+<!-- Before opening: if this changed behavior or the public contract, update the docs too (README, CLAUDE.md, docs/). -->
 
-## Type of Change
+## Type of change
+<!-- Keep the one that applies; delete the others. -->
+- 🐛 Bugfix
+- ✨ Feature
+- 🧹 Chore / maintenance
 
-## Summary of Changes
-Describe how the work was implemented, including any design decisions or tradeoffs that influenced it.
+## Related issue
+<!-- Closes #123 — delete if there's no issue -->
+
+## Summary
+<!-- What this changes and why — call out any notable design decisions or tradeoffs.
+     If it's a chore, say what kind (migration, refactor, deps, tooling). -->
 
 ## Testing
-Describe how this was tested. Include manual, unit, integration, screenshots, etc.
+<!-- How you verified it — manual steps, unit/integration tests, screenshots.
+     Call out what applies: regression test added, builds cleanly (no new warnings),
+     verified in a dev environment, docs updated. -->
+
+## Rollout / risk
+<!-- Deploy-sensitive notes: flags, migrations, monitoring. Delete the section if N/A. -->

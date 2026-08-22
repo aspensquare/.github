@@ -1,63 +1,38 @@
 name: 🧹 Chore
-description: General maintenance tasks
+description: Maintenance — dependency bumps, cleanup, docs, internal changes
 title: "[CHORE]: "
 labels: ["maintenance"]
+type: Task
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Use this template for general maintenance tasks like dependency updates, code cleanup, documentation improvements, etc.
-
   - type: textarea
-    id: description
+    id: what
     attributes:
-      label: Task
-      description: What needs to be done? Summarize the work and area it affects.
-      placeholder: "Update React to v18, Refactor auth module"
-    validations:
-      required: true
-
-  - type: textarea
-    id: impact
-    attributes:
-      label: Why / Impact
-      description: Why is this task valuable? What will improve or be fixed?
-      placeholder: "Improve performance, reduce tech debt, enhance security"
+      label: What needs doing
+      description: The maintenance task and the area it affects.
+      placeholder: "e.g. Bump React to v18; clean up the auth module"
     validations:
       required: true
 
   - type: dropdown
-    id: type
+    id: kind
     attributes:
-      label: Type of Chore
-      description: What kind of maintenance task is this?
+      label: Kind
+      description: Optional — what kind of maintenance.
       options:
-        - Code change/refactoring
-        - UI enhancement
         - Dependency update
+        - Code cleanup / refactor
         - Configuration change
-        - Build/tooling improvement
-        - Documentation update
+        - Build / tooling
+        - Documentation
         - Other
     validations:
-      required: true
-
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Priority
-      description: How urgent or important is this task?
-      options:
-        - 🔥 High — blocking or urgent
-        - ⚙️ Medium — worthwhile soon
-        - 💤 Low — nice-to-have or backlog
-        - 🧊 Icebox — low priority / future consideration
-    validations:
-      required: true
+      required: false
 
   - type: textarea
     id: context
     attributes:
-      label: Dependencies / Context
-      description: Optional — related issues, PRs, or people to notify.
-      placeholder: "#1234 (depends on CI change)"
+      label: Why / context
+      description: Optional — related issues or PRs, or rationale if it isn't self-evident.
+      placeholder: "#1234"
+    validations:
+      required: false

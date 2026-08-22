@@ -1,70 +1,38 @@
-name: 🚀 Feature Request
-description: Suggest a new feature or enhancement
+name: ✨ Feature
+description: Something we want built
 title: "[FEATURE]: "
 labels: ["enhancement"]
+type: Feature
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Please provide as much detail as possible to help understand the request.
-
   - type: textarea
-    id: description
+    id: what
     attributes:
-      label: Description
-      description: What feature or enhancement do you want?
-      placeholder: Describe the feature you'd like to see added
+      label: What we want
+      description: The change or capability.
+      placeholder: What should exist that doesn't yet?
     validations:
       required: true
 
   - type: textarea
-    id: motivation
+    id: why
     attributes:
-      label: Motivation / Use Case
-      description: Why is this feature needed? What problem does it solve?
-      placeholder: Explain the use case and why this feature would be valuable
+      label: Why / who asked
+      description: The problem it solves or who requested it.
     validations:
-      required: true
+      required: false
 
-  - type: dropdown
-    id: priority
+  - type: textarea
+    id: done
     attributes:
-      label: Priority
-      description: How urgent or important is this task?
-      options:
-        - 🔥 High — blocking or urgent
-        - ⚙️ Medium — worthwhile soon
-        - 💤 Low — nice-to-have or backlog
-        - 🧊 Icebox — low priority / future consideration
+      label: What does done look like
+      description: How we'll know it's complete.
     validations:
-      required: true
+      required: false
 
   - type: textarea
-    id: solution
+    id: context
     attributes:
-      label: Proposed Solution
-      description: Optional - describe how you think this feature should work
-      placeholder: What would the ideal implementation look like?
-
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternatives Considered
-      description: Optional - any workarounds or alternative solutions you've considered
-      placeholder: Have you found any workarounds? What other approaches did you consider?
-
-  - type: textarea
-    id: additional
-    attributes:
-      label: Additional Context
-      description: Optional - mockups, examples, or any other relevant information
-      placeholder: Screenshots, links to similar features, examples, etc.
-
-  - type: textarea
-    id: task-list
-    attributes:
-      label: Task List
-      description: Optional - initial tasks to get started on this feature
-      placeholder: |
-        - [ ] Task 1
-        - [ ] Task 2
+      label: Context
+      description: Mockups, links, examples.
+    validations:
+      required: false

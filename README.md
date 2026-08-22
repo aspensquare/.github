@@ -4,11 +4,9 @@ This repository defines **organization-wide community health files** and GitHub 
 These files are automatically inherited by all repositories in the org, unless a repo overrides them with its own versions.
 
 ## 📌 What’s in here?
-- **Pull Request Templates** → Ensure all PRs follow a consistent structure
-- **Issue Templates** → Standardized bug reports, feature requests, etc.
+- **Pull Request Template** → Keeps PRs in a consistent structure
+- **Issue Templates** → Bug, Feature, and Chore forms
 - **CONTRIBUTING.md** → Guidelines for how to contribute
-- **CODEOWNERS** → Define code review responsibilities
-- **Workflows** → Shared GitHub Actions (if enabled for this repo)
 
 ## 🔄 How it works
 - If a repository **does not** have its own PR/issue templates, GitHub will fall back to the ones in this repo.
@@ -22,7 +20,7 @@ These files are automatically inherited by all repositories in the org, unless a
 ## 👩‍💻 Contributing
 If you want to suggest changes to the default templates:
 1. Open a PR in this `.github` repo
-2. Tag relevant reviewers (see `CODEOWNERS` if defined)
+2. Tag relevant reviewers
 3. Once merged, the changes apply org-wide
 
 ---

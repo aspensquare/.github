@@ -4,4 +4,4 @@ The issue provides WHAT and WHY.
 
 ### When an Issue Is Not Required
 Refactoring, configuration, documentation, and test-only changes may be opened directly as PRs.
-Use the "Maintenance" PR template for these.
+Tick the **Chore / maintenance** box in the PR template for these.

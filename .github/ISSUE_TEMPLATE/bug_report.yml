@@ -1,56 +1,50 @@
-name: 🐛 Bug Report
-description: Report a bug in the codebase
+name: 🐛 Bug
+description: Something's broken
 title: "[BUG]: "
 labels: ["bug"]
+type: Bug
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Please fill out the information below to document the issue.
-
   - type: textarea
-    id: description
+    id: whats-happening
     attributes:
-      label: Description
-      description: Describe the bug clearly. Include expected vs actual behavior.
-      placeholder: What happened? What did you expect to happen?
+      label: What's happening
+      description: The actual (broken) behavior.
+      placeholder: What's going wrong?
     validations:
       required: true
 
   - type: textarea
-    id: steps
+    id: impact
     attributes:
-      label: Steps to Reproduce
-      description: List the steps to reproduce the issue
-      placeholder: |
-        1. Go to...
-        2. Click on...
-        3. See error...
+      label: Impact
+      description: Who or what is affected, and is it blocking? One line is fine.
+      placeholder: e.g. blocks all publishes to OneSite for one property; workaround exists
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: expected
     attributes:
-      label: Expected Behavior
+      label: Expected behavior
       description: What should happen instead?
-      placeholder: Describe what you expected to happen
     validations:
-      required: true
+      required: false
 
   - type: textarea
-    id: screenshots
+    id: steps
     attributes:
-      label: Screenshots / Logs
-      description: Optional - add screenshots or logs if relevant
-      placeholder: Paste screenshots or logs here
+      label: Steps to reproduce
+      description: How to trigger it. Note if it's intermittent or you can't reproduce it consistently.
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: false
 
-  - type: checkboxes
-    id: checklist
+  - type: textarea
+    id: environment
     attributes:
-      label: Checklist
-      options:
-        - label: I can reproduce this issue consistently
-          required: false
-        - label: I have reproduced the issue locally
-          required: false
+      label: Environment / logs / screenshots
+      description: Anything the code can't tell us — environment, logs, screenshots.
+    validations:
+      required: false
